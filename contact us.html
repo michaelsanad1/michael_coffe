@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <style>
+        body{
+        background-color: whitesmoke;
+       }
+        .div1{
+            background-color:black;
+            box-shadow: 10cm;
+        }
+        .buttonall{border: none;
+            background-color:  silver; 
+            font-size: 30px;
+            font-style: italic;
+            font-weight: bolder;
+            
+        } 
+     
+        .link1{
+            text-decoration: none;
+            color: black;
+        }
+       </style>
+</head>
+<body>
+    <div class="div1">
+        <table style="width: 35cm;">      
+            <tr>
+                <td >
+                    <img src="pexels-chevanon-photography-312418.jpg" width="150" height="150" style="border-radius: 50%;">
+                </td>
+                <td style="font-size: 50px; color:white; font-weight: bolder; font-style: italic;" class="head1">
+                     contact us
+                </td>
+            </tr>
+            </table>
+
+            </div><br>
+            <div style="background-color: silver";>
+                <table style="width: 15cm;">
+                    <tr>
+                        <td>    
+                           <div class="buttonall"><a href="tarik cofe shop.html" class="link1">Home</a></div></td>
+                        <td>
+                            <div class="buttonall"><a href="menu.html" class="link1">Menu</a></div></td>
+                        </td>
+                        <td>
+                            <div class="buttonall"><a href="about.html" class="link1">About</a></div></td>
+                        </td> 
+                        <td>
+                            <div class="buttonall"><a href="contact us.html" class="link1">Contact</a></div></td>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="background-image: url(cup-coffee-with-grains-panoramic-white-background-generative-ai_446633-6248.jpg); background-size: cover;">
+                <table style="width: 20cm;">      
+                    <tr>
+                        <td >
+                            <img src="photo_2023-05-04_19-37-39.jpg" width="200" height="200">
+                        </td>
+                        <td style="font-size: 40px; color:black; font-weight: bolder; font-style: italic;">
+                            01065077675
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >
+                            <img src="michael insta.jpg" width="200" height="200">
+                        </td>
+                        <td style="font-size: 40px; color:white; font-weight: bolder; font-style: italic;">
+                            <a href="https://instagram.com/michaelsanadofficial?igshid=YmMyMTA2M2Y=" style="color:black;text-decoration: none;font-style: italic;">@michaelsanadofficial</a>
+                        </td>
+                    </tr>
+                    <br><br><br><br><br>
+
+            </div>
+            <script>
+                let myname=" Contact us";
+                let index=0;
+                function writetext(){ 
+              document.querySelector(".head1").textContent= myname.slice(0,index);
+             
+              index++
+            if(index>1000000){
+                index=0
+            }
+          
+                }
+              setInterval(function(){
+                writetext();
+              },500
+          
+              )
+            
+             
+            </script>
+</body>
+</html>

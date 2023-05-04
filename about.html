@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+    <style>
+                 body{
+        background-color: whitesmoke;
+       }
+        .div1{
+            background-color:black;
+            box-shadow: 10cm;
+        }   .p1{
+            font-size: 30px;
+         color:black;
+           
+        }
+        .buttonall{border: none;
+            background-color:  silver; 
+            font-size: 30px;
+            font-style: italic;
+            font-weight: bolder;
+            
+        } 
+     
+        .link1{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+    <table style="width: 37cm;">      
+        <tr>
+            <td >
+                <img src="pexels-chevanon-photography-312418.jpg." width="150" height="150" style="border-radius: 50%;">
+            </td>
+            <td style="font-size: 50px; color:white; font-weight: bolder; font-style: italic;" class="head1">
+                About Us
+            </td>
+        </tr>
+        </table>
+        </div><br>
+        <div style="background-color: silver";>
+            <table style="width: 15cm;">
+                <tr>
+                    <td>    
+                       <div class="buttonall"><a href="tarik cofe shop.html" class="link1">Home</a></div></td>
+                    <td>
+                        <div class="buttonall"><a href="menu.html" class="link1">Menu</a></div></td>
+                    </td>
+                    <td>
+                        <div class="buttonall"><a href="about.html" class="link1">About</a></div></td>
+                    </td> 
+                    <td>
+                        <div class="buttonall"><a href="contact us.html" class="link1">Contact</a></div></td>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div style="background-image:url(cup-coffee-with-grains-panoramic-white-background-generative-ai_446633-6248.jpg); background-size: cover;"> 
+        <p class="p1">Overpowering Coffee in a hurry ‘michael coffe’ just uses crisp</p><br>
+        
+        <p class="p1">drain and similar Mocha Italia beans as our shops to make the ideal ‘michael coffe’</p><br>
+        <p class="p1">You can look over a range including Caffè latte, Cappuccino, White and Black’</p><br>
+        <p class="p1">Americano, Hot Chocolate, and Mocha</p><br>
+        <br><br>
+        </div>
+        <script>
+            let myname="About Us";
+            let index=0;
+            function writetext(){ 
+          document.querySelector(".head1").textContent= myname.slice(0,index);
+         
+          index++
+        if(index>1000000){
+            index=0
+        }
+      
+            }
+          setInterval(function(){
+            writetext();
+          },500
+      
+          )
+        
+         
+        </script>
+    
+</body>
+</html>

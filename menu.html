@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <style>       body{
+        background-color: whitesmoke;
+       }
+        .div1{
+            background-color:black;
+            box-shadow: 10cm;
+        }
+        .td1{
+            text-align: center;
+        }
+    
+        .buttonall{border: none;
+            background-color:  silver; 
+            font-size: 30px;
+            font-style: italic;
+            font-weight: bolder;
+            
+        } 
+     
+        .link1{
+            text-decoration: none;
+            color: black;
+        }
+        
+        </style>
+        
+</head>
+<body>
+    <div class="div1">
+        <table style="width: 30cm;">      
+            <tr>
+                <td >
+                    <img src="pexels-chevanon-photography-312418.jpg." width="150" height="150" style="border-radius: 50%;">
+                </td>
+                <td style="font-size: 60px; color:white; font-weight: bolder; font-style: italic;" class="head1">
+                    Menu
+                </td>
+            </tr>
+            </table>
+            </div>
+            <br>
+            <div style="background-color: silver";>
+                <table style="width: 15cm;">
+                    <tr>
+                        <td>    
+                           <div class="buttonall"><a href="tarik cofe shop.html" class="link1">Home</a></div></td>
+                        <td>
+                            <div class="buttonall"><a href="menu.html" class="link1">Menu</a></div></td>
+                        </td>
+                        <td>
+                            <div class="buttonall"><a href="about.html" class="link1">About</a></div></td>
+                        </td> 
+                        <td>
+                            <div class="buttonall"><a href="contact us.html" class="link1">Contact</a></div></td>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div style="background-image:url(cup-coffee-with-grains-panoramic-white-background-generative-ai_446633-6248.jpg); background-size: cover;">
+                <table style="width: 20cm;">
+                    <h2 style="font-size: 60px; color:black; font-weight: bolder; font-style: italic;">Espresso</h2>
+                    <tr>
+                        <td style="font-size: 40px; color:black; font-weight: bolder; font-style: italic;">
+                            Espresso
+                        </td>
+                        <td class="td1" style="font-size: 40px; color:black; font-weight: bolder; font-style: italic;">
+                            30 EGP
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 40px; color:black; font-weight: bolder; font-style: italic;">
+                            machiatto
+                        </td>
+                        <td class="td1" style="font-size: 40px; color:black; font-weight: bolder; font-style: italic;">
+                            40 EGP
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 40px; color:black; font-weight: bolder; font-style: italic;">
+                            coffe lap
+                        </td>
+                        <td class="td1" style="font-size: 40px; color:black; font-weight: bolder; font-style: italic;">
+                            25 EGP
+                        </td>
+                    </tr>
+                    
+                   
+                    <tr>
+                        <td style="font-size: 40px; color:black; font-weight: bolder; font-style: italic;">
+                            Americano
+                        </td>
+                        <td class="td1" style="font-size: 40px; color:black; font-weight: bolder; font-style: italic;">
+                            35 EGP
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 40px; color:black; font-weight: bolder; font-style: italic;">
+                            latte
+                        </td>
+                        <td class="td1" style="font-size: 40px; color:black; font-weight: bolder; font-style: italic;">
+                            30 EGP
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 40px; color:black; font-weight: bolder; font-style: italic;">
+                            Flat white
+                        </td>
+                        <td class="td1" style="font-size: 40px; color:black; font-weight: bolder; font-style: italic;">
+                            50 EGP
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 40px; color:black; font-weight: bolder; font-style: italic;">
+                            mocchiato
+                        </td>
+                        <td class="td1" style="font-size: 40px; color:black; font-weight: bolder; font-style: italic;">
+                            50 EGP
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            <script>
+                let myname="Menu";
+                let index=0;
+                function writetext(){ 
+              document.querySelector(".head1").textContent= myname.slice(0,index);
+             
+              index++
+            if(index>1000000){
+                index=0
+            }
+          
+                }
+              setInterval(function(){
+                writetext();
+              },500
+          
+              )
+            
+             
+            </script>
+    
+</body>
+</html>
